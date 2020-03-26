@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+java -cp lucene-geo-gazetteer-jar-with-dependencies.jar edu.usc.ir.geo.gazetteer.GeoNameResolver -i ${PWD}/geoIndex $@
